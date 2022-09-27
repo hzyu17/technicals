@@ -7,9 +7,11 @@
 ## docker
 ### [docker docs](https://docs.docker.com/engine/reference/commandline/run/)
 Most commonly used:
+**Build docker image, which is an environment**
 ```
 docker build  -t example/example_build:latest -f ./DockerfileBuildEnv . 
 ```
+**Run docker container, which is somewhat like an instance**
 ```
 docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
 ```

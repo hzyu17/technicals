@@ -5,11 +5,14 @@
 [CHEATSHEET](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 ## docker
-### [docker docs](https://docs.docker.com/engine/reference/commandline/run/)\
-Most commonly used:\
-```docker build  -t example/example_build:latest \
-	-f ./DockerfileBuildEnv .```\
-```docker run [OPTIONS] IMAGE [COMMAND] [ARG...]```\
+### [docker docs](https://docs.docker.com/engine/reference/commandline/run/)
+Most commonly used:
+```
+docker build  -t example/example_build:latest -f ./DockerfileBuildEnv . 
+```
+```
+docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
+```
 
 ### docker for cmake projects 
 Build docker images and containers for Cmake projects with isolated env and dependencies of the right versions. \

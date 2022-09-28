@@ -13,4 +13,5 @@ RUN apt-get update && apt-get -y --no-install-recommends install \
     python3-pip \
     python-pip \
     python3-dev \
-    libboost-all-dev
+    libboost-all-dev \
+    vim 

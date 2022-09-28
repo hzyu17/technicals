@@ -14,4 +14,9 @@ RUN apt-get update && apt-get -y --no-install-recommends install \
     python-pip \
     python3-dev \
     libboost-all-dev \
-    vim 
+    vim \
+    unzip
+
+RUN mkdir eigen && cd eigen && wget https://gitlab.com/libeigen/eigen/-/archive/3.4.0/eigen-3.4.0.zip
+RUN unzip eigen-3.4.0.zip && cd eigen-3.4.0 && mkdir build && cd build && cmake .. && make install
+

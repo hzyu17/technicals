@@ -1,4 +1,4 @@
-# This is a memo for the technical issues encountered daily. 
+# This is a note for some technical issues encountered. 
 
 ## vim 
 [A vim cheat sheet](https://vimsheet.com/)

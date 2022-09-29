@@ -1,0 +1,10 @@
+Host ae
+HostName ssh.ae.gatech.edu
+PreferredAuthentications publickey
+# IdentityFile id_rsa
+User hyu419
+
+Host hz
+Hostname ae-scml-406200
+ProxyJump ae
+User hyu419

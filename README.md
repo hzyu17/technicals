@@ -6,6 +6,8 @@
 ## git
 ### Markdown and readme cheatsheet
 [CHEATSHEET](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+#### Good habits
+When developping on top of an existing package, one can fork this git repo.
 
 ## docker
 ### [docker docs](https://docs.docker.com/engine/reference/commandline/run/)
@@ -17,6 +19,10 @@ docker build  -t example/example_build:latest -f ./DockerfileBuildEnv .
 **Run docker container, which is somewhat like an instance**
 ```
 docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
+```
+**Restart a container which was exited**
+```
+docker start -i drake_env
 ```
 **Run docker in vscode**
 F1 -> Remote-container -> attach to running container.

@@ -22,4 +22,7 @@ F1 -> Remote-container -> attach to running container.
 Build docker images and containers for Cmake projects with isolated env and dependencies of the right versions. \
 [An article](https://ddanilov.me/dockerized-cpp-build) \
 [Another article](https://medium.com/@mfcollins3/shipping-c-programs-in-docker-1d79568f6f52)\
-[An example](https://github.com/f-squirrel/dockerized_cpp_build_example)   
+[An example](https://github.com/f-squirrel/dockerized_cpp_build_example)  
+
+### save docker image or docker container for use on other machines
+[docker save / docker export](https://www.baeldung.com/ops/docker-save-export)

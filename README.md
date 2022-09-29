@@ -18,7 +18,10 @@ docker build  -t example/example_build:latest -f ./DockerfileBuildEnv .
 ```
 **Run docker container, which is somewhat like an instance**
 ```
-docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
+docker run -it --rm --name=example \
+	--mount type=bind,source=${PWD},target=/src \
+	example/example_build:0.1 \
+	bash
 ```
 **Restart a container which was exited**
 ```

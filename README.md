@@ -8,3 +8,5 @@
 ## [drake](https://github.com/lucasyu17/technicals/tree/main/drake)
 
 ## [docker](https://github.com/lucasyu17/technicals/tree/main/docker)
+
+## [latex](https://github.com/lucasyu17/technicals/tree/main/latex)

@@ -10,3 +10,5 @@
 ## [docker](https://github.com/lucasyu17/technicals/tree/main/docker)
 
 ## [latex](https://github.com/lucasyu17/technicals/tree/main/latex)
+
+## [ssh](https://github.com/lucasyu17/technicals/tree/main/ssh)

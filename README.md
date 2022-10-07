@@ -1,8 +1,5 @@
 # This is a note for some technical issues encountered. 
 
-## vim 
-[A vim cheat sheet](https://vimsheet.com/)
-
 ## [git](https://github.com/lucasyu17/technicals/tree/main/git)
 
 ## [drake](https://github.com/lucasyu17/technicals/tree/main/drake)
@@ -12,3 +9,5 @@
 ## [latex](https://github.com/lucasyu17/technicals/tree/main/latex)
 
 ## [ssh](https://github.com/lucasyu17/technicals/tree/main/ssh)
+
+## [vim](https://github.com/lucasyu17/technicals/tree/main/vim)

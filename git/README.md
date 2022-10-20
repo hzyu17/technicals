@@ -11,3 +11,12 @@ Create task list:
 -[] task 2
 ```
 Task lists can also be created in the issue.
+#### Mistakenly commit (larger files, forget gitignore, for example)
+Best way is to check the commit id by
+```
+git log
+```
+and then go back directly to that commit 
+```
+git checkout commit_id
+```

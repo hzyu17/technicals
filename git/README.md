@@ -7,6 +7,6 @@ When developping on top of an existing package, one can fork this git repo.
 #### Task lists
 Create task list:\
 ```
--[] task 1
+-[x] task 1
 -[] task 2
 ```

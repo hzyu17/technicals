@@ -18,5 +18,6 @@ git log
 ```
 and then go back directly to that commit 
 ```
-git checkout commit_id
+git reset --hard HEAD~N
 ```
+N is the number of commit you want the HEAD to go back.

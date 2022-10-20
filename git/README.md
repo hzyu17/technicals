@@ -10,3 +10,4 @@ Create task list:
 -[x] task 1
 -[] task 2
 ```
+Task lists can also be created in the issue.

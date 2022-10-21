@@ -19,7 +19,7 @@ conda install python=3.9
 
 ### use placeholder in yaml file
 In a yaml file we can define variables and placeholders for future use in the same file.
-'''
+```
 configuration:
   _target_: src.models.components.dual_RL_configuration.DualRLConfig
   dim_state: 2
@@ -30,4 +30,4 @@ net_control:
   input_size: "{dim_state}"
   lin_size: 64
   output_size: "{dim_control}"
-'''
+```

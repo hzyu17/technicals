@@ -22,3 +22,4 @@ meshcat_viz = MeshcatVisualizer(scene_graph)
 builder.AddSystem(meshcat_viz)
 builder.Connect(scene_graph.get_query_output_port(), meshcat_viz.get_geometry_query_input_port())
 ```
+More details: [Meshcat_python](https://github.com/rdeits/meshcat-python)

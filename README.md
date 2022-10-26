@@ -11,3 +11,6 @@
 ## [ssh](https://github.com/lucasyu17/technicals/tree/main/ssh)
 
 ## [vim](https://github.com/lucasyu17/technicals/tree/main/vim)
+
+## [python](https://github.com/lucasyu17/technicals/tree/main/python)
+

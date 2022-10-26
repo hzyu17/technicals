@@ -33,4 +33,5 @@ after installing using apt,
 ```
 /opt/drake/bin/drake-visualizer
 ```
-
+### build cmake projects on top of drake installed using apt:
+follow [this repo](https://github.com/RobotLocomotion/drake-external-examples)

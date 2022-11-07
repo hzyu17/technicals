@@ -14,3 +14,4 @@
 
 ## [python](https://github.com/lucasyu17/technicals/tree/main/python)
 
+## [linux](https://github.com/lucasyu17/technicals/tree/main/linux)

@@ -2,7 +2,11 @@
 Need at least ubuntu20.04
 ## before installing, remember to run the file in [this link](https://drake.mit.edu/ubuntu.html)
 
-### Visualization in drake using meshcat:
+### install via apt tool
+refer to [this link](https://drake.mit.edu/apt.html)
+This will install drake into /opt/drake
+
+## Visualization in drake using meshcat:
 install meshcat:
 ```
 pip install meshcat
@@ -23,3 +27,11 @@ builder.AddSystem(meshcat_viz)
 builder.Connect(scene_graph.get_query_output_port(), meshcat_viz.get_geometry_query_input_port())
 ```
 More details: [Meshcat_python](https://github.com/rdeits/meshcat-python)
+
+## Run drake_visualizer:
+after installing using apt,
+```
+/opt/drake/bin/drake-visualizer
+```
+### build cmake projects on top of drake installed using apt:
+follow [this repo](https://github.com/RobotLocomotion/drake-external-examples)

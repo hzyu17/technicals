@@ -21,3 +21,13 @@ and then go back directly to that commit
 git reset --hard HEAD~N
 ```
 N is the number of commit you want the HEAD to go back.
+
+#### submodules
+submodule names and paths can be found at .submodules
+```
+vim .submodules
+```
+Afrer knowing the submodules, one can init a certain submodule by 
+```
+git submodule init -- path
+```

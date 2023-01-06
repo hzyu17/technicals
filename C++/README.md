@@ -10,6 +10,10 @@ default constructor: [answer](https://en.cppreference.com/w/cpp/language/default
 protected constructor: [answer](https://stackoverflow.com/questions/1057221/what-are-practical-uses-of-a-protected-constructor#:~:text=A%20protected%20constructor%20can%20be,would%20have%20to%20declare%20these.)
 
 
+## google test
+install gtest from github and use it in cmake projects:
+[link](https://gist.github.com/dlime/313f74fd23e4267c4a915086b84c7d3d)
+
 ## Eigen 
 The version information of eigen is written in Eigen/src/Core/util/Macro.h; which include world version, major version, and minor version.
 
